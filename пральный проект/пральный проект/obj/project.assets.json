@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\пральный проект.csproj",
-      "projectName": "пральный проект",
-      "projectPath": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\пральный проект.csproj",
+      "projectUniqueName": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\правильный_проект.csproj",
+      "projectName": "правильный_проект",
+      "projectPath": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\правильный_проект.csproj",
       "packagesPath": "C:\\Users\\FDR\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\obj\\",
       "projectStyle": "PackageReference",
