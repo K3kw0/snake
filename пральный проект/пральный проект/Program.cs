@@ -27,6 +27,21 @@ namespace пральный_проект
             Console.SetCursorPosition(x, y);
             Console.WriteLine(sym);
         }
+
+        public Point(Point p)
+        {
+            x = p.x;
+            y = p.y;
+            sym = p.sym;
+        }
+
+        public void Move(int offset , Direction direction)
+        {
+            if (direction == Direction.RIGHT) x += offset;
+            else if(direction == Direction.LEFT) x -= offset;
+            else if (direction == Direction.UP) y += offset;
+            else if (direction == Direction.DOWN) y -= offset;
+        }
     }
 
     class Figure
@@ -67,6 +82,30 @@ namespace пральный_проект
         }
     }
 
+    enum Direction
+    {
+        LEFT,
+        RIGHT,
+        UP,
+        DOWN,
+    }
+
+
+    class Snake: Figure
+    {
+        public Snake(Point tail, int length, Direction direction)
+        {
+            pList = new List<Point>();
+            for (int i = 0; i < length; i++)
+            {
+                Point p = new Point(tail);
+                p.Move(i, direction);
+                pList.Add(p);
+            }
+        }
+    }
+
+
     class Program
     {
         static void Main(string[] args)
@@ -78,14 +117,11 @@ namespace пральный_проект
             VerticleLine leftLine = new VerticleLine(0, 24, 0, '+');
             VerticleLine righttLine = new VerticleLine(0, 24, 78, '+');
             Point p = new Point(4, 5, '*');
-            p.Draw();
-
-            upLine.Drow();
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
             downLine.Drow();
             leftLine.Drow();
             righttLine.Drow();
-
-            
         }
     }
 }
