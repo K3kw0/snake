@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\FDR\\source\\repos\\пральный проект\\пральный проект\\пральный проект.csproj",
+      "projectUniqueName": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\пральный проект.csproj",
       "projectName": "пральный проект",
-      "projectPath": "C:\\Users\\FDR\\source\\repos\\пральный проект\\пральный проект\\пральный проект.csproj",
+      "projectPath": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\пральный проект.csproj",
       "packagesPath": "C:\\Users\\FDR\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\FDR\\source\\repos\\пральный проект\\пральный проект\\obj\\",
+      "outputPath": "C:\\Users\\FDR\\Desktop\\Snake\\пральный проект\\пральный проект\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\FDR\\AppData\\Roaming\\NuGet\\NuGet.Config",
