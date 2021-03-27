@@ -16,7 +16,15 @@ namespace пральный_проект
         public int x;
         public int y;
         public char sym;
-        public void Draw(int x, int y, char sym)
+
+        public Point(int x, int y, char sym)
+        {
+            this.x = x;
+            this.y = y;
+            this.sym = sym;
+        }
+
+        public void Draw()
         {
             Console.SetCursorPosition(x, y);
             Console.WriteLine(sym);
@@ -28,11 +36,11 @@ namespace пральный_проект
     {
         static void Main(string[] args)
         {
-            Point p1 = new Point();
-            p1.Draw(1, 3, '*');
+            Point p1 = new Point(1, 3, '*');
+            p1.Draw();
 
-            Point p2 = new Point();
-            p2.Draw(4, 5, '#');
+            Point p2 = new Point(4, 5, '#');
+            p2.Draw();
         }
     }
 }
