@@ -5,6 +5,7 @@ using System.Linq;
 using System.Net.Http.Headers;
 using System.Runtime.InteropServices;
 using System.Text.RegularExpressions;
+using System.Threading;
 using System.Security.AccessControl;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,8 +40,14 @@ namespace пральный_проект
         {
             if (direction == Direction.RIGHT) x += offset;
             else if(direction == Direction.LEFT) x -= offset;
-            else if (direction == Direction.UP) y += offset;
-            else if (direction == Direction.DOWN) y -= offset;
+            else if (direction == Direction.UP) y -= offset;
+            else if (direction == Direction.DOWN) y += offset;
+        }
+
+        public void Clear()
+        {
+            sym = ' ';
+            Draw();
         }
     }
 
@@ -90,11 +97,12 @@ namespace пральный_проект
         DOWN,
     }
 
-
     class Snake: Figure
     {
+        public Direction direction;
         public Snake(Point tail, int length, Direction direction)
         {
+            this.direction = direction;
             pList = new List<Point>();
             for (int i = 0; i < length; i++)
             {
@@ -103,25 +111,59 @@ namespace пральный_проект
                 pList.Add(p);
             }
         }
-    }
 
+        internal void Move()
+        {
+            Point tail = pList.First();
+            pList.Remove(tail);
+            Point head = GetNextPoint();
+            pList.Add(head);
+            tail.Clear();
+            head.Draw();
+        }
+
+        public Point GetNextPoint()
+        {
+            Point head = pList.Last();
+            Point nextPoint = new Point(head);
+            nextPoint.Move(1, direction);
+            return nextPoint;
+        }
+    }
 
     class Program
     {
         static void Main(string[] args)
         {
-            Console.SetWindowSize(80, 30);
-            Console.SetBufferSize(80, 30);
             HorizontileLine upLine = new HorizontileLine(0, 78, 0, '+');
             HorizontileLine downLine = new HorizontileLine(0, 78, 24, '+');
             VerticleLine leftLine = new VerticleLine(0, 24, 0, '+');
             VerticleLine righttLine = new VerticleLine(0, 24, 78, '+');
-            Point p = new Point(4, 5, '*');
-            Snake snake = new Snake(p, 4, Direction.RIGHT);
-            snake.Drow();
+            upLine.Drow();
             downLine.Drow();
             leftLine.Drow();
             righttLine.Drow();
+
+            Point p = new Point(4, 5, '*');
+            Snake snake = new Snake(p, 4, Direction.RIGHT);
+            snake.Drow();
+            while (true)
+            {
+                if (Console.KeyAvailable)
+                {
+                    ConsoleKeyInfo key = Console.ReadKey();
+                    if (key.Key == ConsoleKey.LeftArrow) snake.direction = Direction.LEFT;
+                    else if (key.Key == ConsoleKey.RightArrow) snake.direction = Direction.RIGHT;
+                    else if (key.Key == ConsoleKey.DownArrow) snake.direction = Direction.DOWN;
+                    else if (key.Key == ConsoleKey.UpArrow) snake.direction = Direction.UP;
+                }
+                Thread.Sleep(100);
+                snake.Move();
+            }
+
+
+
+           
         }
     }
 }
