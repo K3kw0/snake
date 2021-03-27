@@ -32,6 +32,29 @@ namespace пральный_проект
 
     }
 
+    class HorizontileLine
+    {
+        List<Point> pList;
+        public HorizontileLine(int xLeft, int xRight, int y, char sym)
+        {
+            pList = new List<Point>();
+            for (int i = xLeft; i <= xRight; i++)
+            {
+                Point p = new Point(i, y, sym);
+                pList.Add(p);
+            }
+        }
+
+        public void Drow()
+        {
+            foreach (Point p in pList)
+            {
+                p.Draw();
+            }
+        }
+
+    }
+
     class Program
     {
         static void Main(string[] args)
@@ -42,21 +65,8 @@ namespace пральный_проект
             Point p2 = new Point(4, 5, '#');
             p2.Draw();
 
-            List<int> numList = new List<int>();
-            numList.Add(0);
-            numList.Add(1);
-            numList.Add(2);
-
-            int x = numList[0];
-            int y = numList[1];
-            int z = numList[2];
-
-            foreach (int i in numList)
-            {
-                Console.WriteLine(i);
-            }
-            numList.RemoveAt(0);
-
+            HorizontileLine line = new HorizontileLine(5, 10, 8, '+');
+            line.Drow();
         }
     }
 }
