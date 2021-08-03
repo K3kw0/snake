@@ -1,0 +1,26 @@
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.csprojAssemblyReference.cache
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.AssemblyInfoInputs.cache
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.AssemblyInfo.cs
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.csproj.CoreCompileInputs.cache
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.exe
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.deps.json
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.runtimeconfig.json
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.runtimeconfig.dev.json
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.dll
+C:\Users\FDR\source\repos\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.pdb
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.dll
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.pdb
+C:\Users\FDR\source\repos\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.genruntimeconfig.cache
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.exe
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.deps.json
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.runtimeconfig.json
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.runtimeconfig.dev.json
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.dll
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\bin\Debug\netcoreapp3.1\lesson-2.pdb
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.csprojAssemblyReference.cache
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.AssemblyInfoInputs.cache
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.AssemblyInfo.cs
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.csproj.CoreCompileInputs.cache
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.dll
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.pdb
+C:\Users\FDR\Desktop\Новая папка (2)\lesson-2\lesson-2\obj\Debug\netcoreapp3.1\lesson-2.genruntimeconfig.cache

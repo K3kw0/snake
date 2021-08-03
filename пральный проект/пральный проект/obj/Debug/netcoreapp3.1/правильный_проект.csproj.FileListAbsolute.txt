@@ -1,0 +1,13 @@
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.exe
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.deps.json
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.runtimeconfig.json
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.runtimeconfig.dev.json
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.dll
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\bin\Debug\netcoreapp3.1\правильный_проект.pdb
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.csprojAssemblyReference.cache
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.AssemblyInfoInputs.cache
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.AssemblyInfo.cs
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.csproj.CoreCompileInputs.cache
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.dll
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.pdb
+C:\Users\FDR\Desktop\Snake\пральный проект\пральный проект\obj\Debug\netcoreapp3.1\правильный_проект.genruntimeconfig.cache
